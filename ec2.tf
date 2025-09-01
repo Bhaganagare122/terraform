@@ -7,6 +7,6 @@ resource "aws_instance" "my-firstinstance" {
     ami = "ami-0945610b37068d87a"
     instance_type = "t2.micro"
     tags = {
-      name = "webserver"
+      Name = "webserver"
     }
 }
